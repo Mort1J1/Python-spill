@@ -1,16 +1,14 @@
 from cmath import pi
 from math import sqrt
-from turtle import Screen
 import pygame
 import sys
 import random
-from pyparsing import Or
 
-
-from scipy import rand
-
-from soupsieve import match
-from sqlalchemy import case, false
+#from turtle import Screen
+#from pyparsing import Or
+#from scipy import rand
+#from soupsieve import match
+#from sqlalchemy import case, false
 
 pygame.init()
 
@@ -154,7 +152,7 @@ def infections(murloclist, viruslist):
                 m.infected = True
                 infectedsound.play()
                 m.infectedTime = pygame.time.get_ticks()
-                print(m.infectedTime)
+                #print(m.infectedTime)
                 m.color = (39,134,39)
                 viruslist.remove(v)
 
