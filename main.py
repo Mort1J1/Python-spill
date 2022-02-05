@@ -4,14 +4,7 @@ import pygame
 import sys
 import random
 
-#from turtle import Screen
-#from pyparsing import Or
-#from scipy import rand
-#from soupsieve import match
-#from sqlalchemy import case, false
-
 pygame.init()
-
 
 SCREEN_WIDTH = 1400
 SCREEN_HEIGHT = 800
